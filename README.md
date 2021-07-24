@@ -18,8 +18,8 @@ The table below lists models pre-trained for segmentation tasks that are part of
 
 |Task Name |Model Name |Date Upload |Description |File Name |
 |-|-|-|-|-|
-|<b>bmask</b>|deepmrseg_brain_v1.1|07/2021|A model trained for segmenting a brain mask|deepmrseg_bmask_v1.1.zip|
-|<b>wmlesion</b>|deepmrseg_wml_v1.1|07/2021|A model trained for segmenting white matter lesions|deepmrseg_wmlesion_v1.1.zip|
+|<b>bmask</b>|deepmrseg_brain_v1.1|07/2021|A model trained for segmenting a brain mask|deepmrseg_bmask_v0.0.zip|
+|<b>wmlesion</b>|deepmrseg_wml_v1.1|07/2021|A model trained for segmenting white matter lesions|deepmrseg_wmlesion_v0.0.zip|
 |<b>hippocampus</b>|deepmrseg_hippo_v2.1|07/2021|A model trained for segmenting hippocampus sub-parts|deepmrseg_hippocampus_v0.0.zip|
 |<b>dlicv</b>|deepmrseg_dlicv_v1.1|07/2021|A model trained for segmenting intra-cranial volume|[deepmrseg_dlicv_v1.1.zip](https://github.com/gurayerus/DeepMRSeg-Models/blob/main/models/DLICV/DeepMRSeg_DLICV_v1.0.zip)|
 
