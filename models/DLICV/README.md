@@ -10,26 +10,7 @@ The DLICV model can be easily applied for segmenting the ICV on a single or mult
 
 DLICV model was trained using raw T1 images without any preprocessing steps. Users can directly apply it on their raw T1 images.
 
-```
-# After installing DeepMRSeg
-
-# Download pre-trained model
-deepmrseg_downloadmodel --model dlicv
-
-# Process single subject
-deepmrseg_apply --task dlicv --inImg subj1_T1.nii.gz --outImg subj1_T1_DLICV.nii.gz
-
-# Batch processing of multiple subjects using a subject list
-#   User provides a csv file with columns: ID,InputT1,OutputImage
-deepmrseg_apply --task dlicv --sList subjectList.csv
-
-# Batch processing of multiple subjects in input folder 
-#   Testing is applied individually to all images with the given suffix in the input folder
-deepmrseg_apply --task dlicv --inDir myindir --outDir myoutdir --inSuff _T1.nii.gz --outSuff _DLICV.nii.gz
-
-# Using the deepmrseg_test command:
-deepmrseg_test --mdlDir my/path/to/pretrained/dlicv/model --sList subjectList.csv
-```
+For usage, please see the [usage info](https://github.com/CBICA/DeepMRSeg#usage) in DeepMRSeg README.
 
 
 ## Method Overview
