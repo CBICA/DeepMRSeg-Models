@@ -14,7 +14,7 @@ DLICV model was trained using raw T1 images without any preprocessing steps. Use
 # After installing DeepMRSeg
 
 # Download pre-trained model
-deepmrseg_downloadmodel --task dlicv
+deepmrseg_downloadmodel --model dlicv
 
 # Process single subject
 deepmrseg_apply --task dlicv --inImg subj1_T1.nii.gz --outImg subj1_T1_DLICV.nii.gz
