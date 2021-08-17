@@ -25,8 +25,6 @@ The table below lists models pre-trained for segmentation tasks that are part of
 ## Contributions
 Please contact the developers for assistance if you would like to contribute to this repository by adding a new model trained using your dataset with ground-truth labels for a specific task.
 
-# License
-
 ## Disclaimer
 -   The software has been designed for research purposes only and has neither been reviewed nor approved for clinical use by the Food and Drug Administration (FDA) or by any other federal/state agency.
 -   This code (excluding dependent libraries) is governed by the license provided in https://www.med.upenn.edu/cbica/software-agreement-non-commercial.html unless otherwise specified.
