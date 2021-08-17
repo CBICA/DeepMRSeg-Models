@@ -21,7 +21,7 @@ __Important:__
 deepmrseg_downloadmodel --model tissueseg
 
 # Process single subject
-deepmrseg_apply --model tissueseg --inImg subj1_T1_BrainOrICV.nii.gz --outImg subj1_T1_SEG.nii.gz
+deepmrseg_apply --task tissueseg --inImg subj1_T1_BrainOrICV.nii.gz --outImg subj1_T1_SEG.nii.gz
 
 # Batch processing of multiple subjects using a subject list
 #   User provides a csv file with columns: ID,InputT1,OutputImage
