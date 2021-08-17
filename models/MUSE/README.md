@@ -16,26 +16,8 @@ __Important:__
 
 - A dictionary with the indices and names of the ROI labels is provided inside the model folder (configs/ROI_Indices.csv)
 
-```
-# After installing DeepMRSeg
+For usage, please see the [usage info](https://github.com/CBICA/DeepMRSeg#usage) in DeepMRSeg README.
 
-# Download pre-trained model
-deepmrseg_downloadmodel --model muse
-
-# Process single subject
-deepmrseg_apply --task muse --inImg subj1_T1_BrainOrICV.nii.gz --outImg subj1_T1_MUSE.nii.gz
-
-# Batch processing of multiple subjects using a subject list
-#   User provides a csv file with columns: ID,InputT1,OutputImage
-deepmrseg_apply --task muse --sList subjectList.csv
-
-# Batch processing of multiple subjects in input folder 
-#   Testing is applied individually to all images with the given suffix in the input folder
-deepmrseg_apply --task muse --inDir myindir --outDir myoutdir --inSuff _T1_BrainOrICV.nii.gz --outSuff _MUSE.nii.gz
-
-# Using the deepmrseg_test command:
-deepmrseg_test --mdlDir my/path/to/pretrained/muse/model --sList subjectList.csv
-```
 
 ### Contact
 For more information, please contact <a href="mailto:software@cbica.upenn.edu">CBICA Software</a>.
