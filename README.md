@@ -18,13 +18,19 @@ The table below lists models pre-trained for segmentation tasks that are part of
 
 |Task Name |Model Name |Date Upload |Description|
 |-|-|-|-|
-|<b>tissueseg</b>|[deepmrseg_TissueSeg_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/TissueSeg/DeepMRSeg_TissueSeg_v1.0.zip)|08/2021|A model trained for segmenting brain tissues (GM, WM, ventricles and cortical CSF)|
-|<b>muse</b>|[deepmrseg_MUSE_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/MUSE/DeepMRSeg_MUSE_v1.0.zip)|08/2021|A model trained for segmenting MUSE anatomical regions of interest (ROIs)|
-|<b>dlicv</b>|[deepmrseg_DLICV_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/DLICV/DeepMRSeg_DLICV_v1.0.zip)|08/2021|A model trained for segmenting intra-cranial volume|
+|<b>tissueseg</b>|[deepmrseg_TissueSeg_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/TissueSeg)|08/2021|A model trained for segmenting brain tissues (GM, WM, ventricles and cortical CSF)|
+|<b>muse</b>|[deepmrseg_MUSE_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/MUSE)|08/2021|A model trained for segmenting MUSE anatomical regions of interest (ROIs)|
+|<b>dlicv</b>|[deepmrseg_DLICV_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/DLICV)|08/2021|A model trained for segmenting intra-cranial volume|
 
 ## Contributions
 Please contact the developers for assistance if you would like to contribute to this repository by adding a new model trained using your dataset with ground-truth labels for a specific task.
 
 # License
-TODO
 
+## Disclaimer
+-   The software has been designed for research purposes only and has neither been reviewed nor approved for clinical use by the Food and Drug Administration (FDA) or by any other federal/state agency.
+-   This code (excluding dependent libraries) is governed by the license provided in https://www.med.upenn.edu/cbica/software-agreement-non-commercial.html unless otherwise specified.
+-   By using DeepMRSeg-Models, you agree to the license as stated in the [license file](https://github.com/CBICA/DeepMRSeg/blob/main/LICENSE).
+
+## Contact
+For more information, please contact <a href="mailto:software@cbica.upenn.edu">CBICA Software</a>.
