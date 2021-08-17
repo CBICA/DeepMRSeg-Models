@@ -8,6 +8,8 @@ DLICV is a method developed for segmenting a binary mask of the the intra-crania
 
 The DLICV model can be easily applied for segmenting the ICV on a single or multiple T1 images using the tools provided as part of the [DeepMRSeg package](https://github.com/CBICA/DeepMRSeg)
 
+DLICV model was trained using raw T1 images without any preprocessing steps. Users can directly apply it on their raw T1 images.
+
 ```
 # After installing DeepMRSeg
 
@@ -24,6 +26,9 @@ deepmrseg_apply --task dlicv --sList subjectList.csv
 # Batch processing of multiple subjects in input folder 
 #   Testing is applied individually to all images with the given suffix in the input folder
 deepmrseg_apply --task dlicv --inDir myindir --outDir myoutdir --inSuff _T1.nii.gz --outSuff _DLICV.nii.gz
+
+# Using the deepmrseg_test command:
+deepmrseg_test --mdldir my/path/to/pretrained/dlicv/model --sList subjectList.csv
 ```
 
 
@@ -45,5 +50,7 @@ Validation experiments have demonstrated that the proposed strategy resulted in 
 ### References
 [1] Voevodskaya O, Simmons A, Nordenskjöld R, et al. The effects of intracranial volume adjustment approaches on multiple regional MRI volumes in healthy aging and Alzheimer's disease. Front Aging Neurosci. 2014;6:264. Published 2014 Oct 7. doi:10.3389/fnagi.2014.00264
 
+
 ### Contact
+For more information, please contact <a href="mailto:software@cbica.upenn.edu">CBICA Software</a>.
 
