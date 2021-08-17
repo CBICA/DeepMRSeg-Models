@@ -6,7 +6,7 @@ TissueSeg is a DeepMRSeg model trained for segmenting the brain into 4 tissue ty
 
 ## Usage
 
-The TissueSeg model can be easily applied for segmenting a single or multiple T1 images using the tools provided as part of the [DeepMRSeg package](https://github.com/CBICA/DeepMRSeg). 
+The TissueSeg model can be easily applied for segmenting a single or multiple T1 image(s) using the tools provided as part of the [DeepMRSeg package](https://github.com/CBICA/DeepMRSeg). 
 
 __Important:__ 
 
@@ -14,26 +14,8 @@ __Important:__
 
 - A dictionary with the indices and names of the output labels is provided inside the model folder (configs/ROI_Indices.csv)
 
-```
-# After installing DeepMRSeg
+For usage, please see the [usage info](https://github.com/CBICA/DeepMRSeg#usage) in DeepMRSeg README.
 
-# Download pre-trained model
-deepmrseg_downloadmodel --model tissueseg
-
-# Process single subject
-deepmrseg_apply --task tissueseg --inImg subj1_T1_BrainOrICV.nii.gz --outImg subj1_T1_SEG.nii.gz
-
-# Batch processing of multiple subjects using a subject list
-#   User provides a csv file with columns: ID,InputT1,OutputImage
-deepmrseg_apply --task tissueseg --sList subjectList.csv
-
-# Batch processing of multiple subjects in input folder 
-#   Testing is applied individually to all images with the given suffix in the input folder
-deepmrseg_apply --task tissueseg --inDir myindir --outDir myoutdir --inSuff _T1_BrainOrICV.nii.gz --outSuff _SEG.nii.gz
-
-# Using the deepmrseg_test command:
-deepmrseg_test --mdlDir my/path/to/pretrained/tissueseg/model --sList subjectList.csv
-```
 
 ### Contact
 For more information, please contact <a href="mailto:software@cbica.upenn.edu">CBICA Software</a>.
