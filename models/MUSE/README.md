@@ -34,7 +34,7 @@ deepmrseg_apply --task muse --sList subjectList.csv
 deepmrseg_apply --task muse --inDir myindir --outDir myoutdir --inSuff _T1_BrainOrICV.nii.gz --outSuff _MUSE.nii.gz
 
 # Using the deepmrseg_test command:
-deepmrseg_test --mdldir my/path/to/pretrained/muse/model --sList subjectList.csv
+deepmrseg_test --mdlDir my/path/to/pretrained/muse/model --sList subjectList.csv
 ```
 
 ### Contact
