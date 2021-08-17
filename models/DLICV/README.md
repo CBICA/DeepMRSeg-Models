@@ -6,7 +6,7 @@ DLICV is a method developed for segmenting a binary mask of the the intra-crania
 
 ## Usage
 
-The DLICV model can be easily applied for segmenting the ICV on a single or multiple T1 images using the tools provided as part of the [DeepMRSeg package](https://github.com/CBICA/DeepMRSeg)
+The DLICV model can be easily applied for segmenting the ICV on a single or multiple T1 image(s) using the tools provided as part of the [DeepMRSeg package](https://github.com/CBICA/DeepMRSeg)
 
 DLICV model was trained using raw T1 images without any preprocessing steps. Users can directly apply it on their raw T1 images.
 
