@@ -25,7 +25,7 @@ The main motivation for DLICV was based on a simple hypothesis:
 
 *"The actual boundary of the ICV, which is best differentiated on T2 images, can be learned ***using only raw T1 images as input***, if a model is intensively trained using accurate ground-truth segmentations obtained from T2 images."*
 
-Validation experiments have demonstrated that the proposed strategy resulted in accurate ICV masks. The final model was trained on a very rich dataset with n=450 subjects from 15 studies, and their carefully curated/verified reference labels [TODO: ref to paper]
+Validation experiments have demonstrated that the proposed strategy resulted in accurate ICV masks. The final model was trained on a very rich dataset with n=450 subjects from 15 studies, and their carefully curated/verified reference labels
 
 
 ### References
