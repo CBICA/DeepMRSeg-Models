@@ -14,6 +14,7 @@ __Important:__
 
 - MUSE segmentation using DeepMRSeg is work in progress. As such, the method has not been thoroughly validated yet. Final results may include segmentation errors or the model may fail, depending on the input data. We recommend users not to use it for their subsequent MRI data analyses.
 
+- A dictionary with the indices and names of the ROI labels is provided inside the model folder (configs/ROI_Indices.csv)
 
 ```
 # After installing DeepMRSeg
