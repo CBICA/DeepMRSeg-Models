@@ -28,7 +28,7 @@ deepmrseg_apply --task dlicv --sList subjectList.csv
 deepmrseg_apply --task dlicv --inDir myindir --outDir myoutdir --inSuff _T1.nii.gz --outSuff _DLICV.nii.gz
 
 # Using the deepmrseg_test command:
-deepmrseg_test --mdldir my/path/to/pretrained/dlicv/model --sList subjectList.csv
+deepmrseg_test --mdlDir my/path/to/pretrained/dlicv/model --sList subjectList.csv
 ```
 
 
