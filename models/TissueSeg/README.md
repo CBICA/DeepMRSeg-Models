@@ -25,11 +25,11 @@ deepmrseg_apply --model tissueseg --inImg subj1_T1_BrainOrICV.nii.gz --outImg su
 
 # Batch processing of multiple subjects using a subject list
 #   User provides a csv file with columns: ID,InputT1,OutputImage
-deepmrseg_apply --task dlicv --sList subjectList.csv
+deepmrseg_apply --task tissueseg --sList subjectList.csv
 
 # Batch processing of multiple subjects in input folder 
 #   Testing is applied individually to all images with the given suffix in the input folder
-deepmrseg_apply --task dlicv --inDir myindir --outDir myoutdir --inSuff _T1_BrainOrICV.nii.gz --outSuff _SEG.nii.gz
+deepmrseg_apply --task tissueseg --inDir myindir --outDir myoutdir --inSuff _T1_BrainOrICV.nii.gz --outSuff _SEG.nii.gz
 
 # Using the deepmrseg_test command:
 deepmrseg_test --mdldir my/path/to/pretrained/tissueseg/model --sList subjectList.csv
