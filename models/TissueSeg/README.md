@@ -32,7 +32,7 @@ deepmrseg_apply --task tissueseg --sList subjectList.csv
 deepmrseg_apply --task tissueseg --inDir myindir --outDir myoutdir --inSuff _T1_BrainOrICV.nii.gz --outSuff _SEG.nii.gz
 
 # Using the deepmrseg_test command:
-deepmrseg_test --mdldir my/path/to/pretrained/tissueseg/model --sList subjectList.csv
+deepmrseg_test --mdlDir my/path/to/pretrained/tissueseg/model --sList subjectList.csv
 ```
 
 ### Contact
