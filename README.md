@@ -21,6 +21,7 @@ The table below lists models pre-trained for segmentation tasks that are part of
 |<b>tissueseg</b>|[deepmrseg_TissueSeg_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/TissueSeg)|08/2021|A model trained for segmenting brain tissues (GM, WM, ventricles and cortical CSF)|
 |<b>muse</b>|[deepmrseg_MUSE_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/MUSE)|08/2021|A model trained for segmenting MUSE anatomical regions of interest (ROIs)|
 |<b>dlicv</b>|[deepmrseg_DLICV_v1.0](https://github.com/CBICA/DeepMRSeg-Models/raw/main/models/DLICV)|08/2021|A model trained for segmenting intra-cranial volume|
+|<b>WMLS</b>|[deepmrseg_WMLS_v1.0](https://github.com/CBICA/DeepMRSeg-Models/tree/main/models/WMLS)|07/2022|A model trained for segmenting white matter lesions|
 
 ## Contributions
 Please contact the developers for assistance if you would like to contribute to this repository by adding a new model trained using your dataset with ground-truth labels for a specific task.
